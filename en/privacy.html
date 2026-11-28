@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy | NIMA</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main>
+<p class="back"><a href="index.html">← NIMA</a>　<a href="../privacy.html">日本語</a></p>
+<h1>Privacy Policy</h1>
+<p>NIMA (“the app”) creates a place just for two people. This page explains what information the app handles and how it is protected.</p>
+<h2>1. The most important points</h2>
+<ul>
+<li>Talk, plans, photos (Memory) and Wishes are encrypted on your phone before they are sent (AES-256-GCM).</li>
+<li>The key that decrypts them is made inside each of your two phones when you connect. The key never leaves your phones.</li>
+<li>Because of this, neither the company that runs the server (Google) nor the developer of the app can read your content.</li>
+<li>No name, email address or phone number is needed.</li>
+<li>There are no ads. The app does not analyze how you use it, and does not track you across other apps.</li>
+</ul>
+<h2>2. Information kept on the server</h2>
+<p>The app uses Google Firebase (Authentication, Cloud Firestore, Cloud Storage). Only the following is kept on the server.</p>
+<table><tr><th>Information</th><th>What it is</th><th>Why</th></tr><tr><td>Anonymous ID</td><td>A meaningless ID created automatically for each device (Firebase Anonymous Authentication)</td><td>To make sure no one but the two of you can enter your space</td></tr><tr><td>Encrypted content</td><td>Talk, plans, photos and Wishes, still encrypted and unreadable</td><td>So both phones can show the same things</td></tr><tr><td>Information that isn't content</td><td>When something was sent, how many items there are, the number and file size of photos, and which of you added it (by anonymous ID)</td><td>To keep things in order and enforce limits (such as 50 photos)</td></tr><tr><td>Numbers used to connect</td><td>A 6-digit number and the “safe to show” part used to make the key (a public key)</td><td>To connect the two of you or move to a new phone. They stop working after 10 minutes and are deleted automatically after about a day</td></tr></table>
+<p>Talk messages and photos stay on the server, still encrypted, until you end your space. When you end it, they are all erased.</p>
+<h2>3. Information kept only on your phone</h2>
+<ul>
+<li>Your shared key (kept in the phone's secure storage)</li>
+<li>Settings (background color, text size and so on)</li>
+<li>Talk messages you are still writing or sending, and conversations saved on the phone by earlier versions</li>
+</ul>
+<h2>4. How the app uses phone features</h2>
+<ul>
+<li><strong>Photos</strong>: Only the photos you choose are read. They are encrypted before they are sent.</li>
+<li><strong>Bluetooth</strong>: Used only to find a nearby phone when you “connect by bringing phones close”. Your location is not recorded.</li>
+<li><strong>Face ID and passcode</strong>: Used only if you turn on “Lock NIMA when opening”. Your phone does the check; the app only receives the result (whether it may open).</li>
+<li><strong>Notifications</strong>: Not used.</li>
+</ul>
+<h2>5. Payments</h2>
+<p>Subscription payments are handled by Apple (App Store). Neither the app nor the developer receives your credit card or other payment information. The app only checks, on your phone through Apple's system, whether your subscription is active.</p>
+<h2>6. Sharing with other people or companies</h2>
+<p>This information is never sold or given to others for advertising. The app uses Google (Firebase) for its server, but Google only receives the items in the table in section 2, and the content stays encrypted.</p>
+<p>Even if required by law, the developer cannot read your content and therefore cannot hand it over.</p>
+<h2>7. Deleting your information</h2>
+<ul>
+<li><strong>End your space</strong>: Choosing “End your space” in the menu erases everything on the server (Talk, plans, photos and Wishes). On your partner's phone, it is erased the next time they open the app.</li>
+<li><strong>Delete the app</strong>: The key and settings on your phone are deleted. Deleting the app does not cancel your subscription. Please cancel it in iPhone Settings → your name → Subscriptions.</li>
+<li>After a space has ended, only the anonymous ID and a number showing which space it belonged to may remain on the server. These do not identify who you are.</li>
+</ul>
+<h2>8. Children</h2>
+<p>The app is not directed at children under 13.</p>
+<h2>9. Changes to this policy</h2>
+<p>If this policy changes, this page will be updated along with the date below.</p>
+<h2>10. Contact</h2>
+<p>For questions, please email:</p>
+<p class="mail"><a href="mailto:parkavenue65@gmail.com">parkavenue65@gmail.com</a></p>
+<p class="date">Established November 23, 2026<br>Updated November 28, 2026</p>
+</main>
+</body>
+</html>
